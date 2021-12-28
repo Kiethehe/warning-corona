@@ -1,0 +1,186 @@
+@media screen and (min-width:740px) and (max-width:1023px) {
+.nav-header{
+    width: 100%;
+} 
+.nav-container{
+    width: 90%;
+}
+.nav-header::before{
+    right: 40%;
+}
+.about h2{
+    font-size: 30px;
+}
+.box-item{
+    height: 400px;
+}
+.box-item h3{
+    font-size: 16px;
+}
+.box-item-doctor{
+    height: 580px;
+}
+.content-footer{
+    width: 80%;
+}
+.col-container{
+    width: 45%;
+}
+.col-4 {
+    width: 45%;
+}
+.col-4 img{
+    width: 100%;
+}
+
+}
+@media screen and (max-width:739px) {
+.nav-header{
+    display: none;
+}
+
+.nav-moblie-container{
+    display: block;
+    width: 300px;
+    height: 100vh;
+    background-color: #ed242e;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    transform: translateX(-100%);
+}
+.img-open-menu{
+    position: absolute;
+    background-image: url(/assents/img/logo.png);
+    right: -125px;
+    top: 50%;
+    z-index: 99;
+    width: 158px;
+    height: 96px;
+    transform: rotate(-90deg);
+}
+.nav-moblie-container label i{  
+    font-size: 40px;
+    width: 100%;
+    text-align: end;
+    padding: 10px;
+    color: #fff;
+
+}
+.nav-moblie{
+  padding: 10px 20px;
+}
+.nav-moblie .item-nav a{
+    display: block;
+    padding: 20px 0px;
+    border-bottom: 1px solid #fafafa;
+    opacity: 0.7;
+}
+#open-nav-moblie{
+    display: none;
+}
+#open-nav-moblie:checked ~ .nav-moblie-container{
+    animation: navMenu 0.75s ease-out forwards;
+}
+@keyframes navMenu{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.about-covido{
+    width: 90%;
+    justify-content: flex-start;
+}
+.about h2{
+    width: 90%;
+    margin: 0 auto;
+}
+.about-covido h1{
+    font-size: 50px;
+}
+.about-covido .btn-about{
+    width: 100%;
+}
+.about-corona{
+    flex-direction: column-reverse;
+    padding: 20px 0px;
+}
+.col-right img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.sympton{
+    flex-direction: column-reverse;
+}
+.sympton .text-sympton {
+    width: 90%;
+}
+.img-sympton{
+    width: 90%;
+}
+.protect{
+    min-height: 1750px;
+}
+.solution{
+    background-image: none;
+    min-height: 1400px;
+    background-color: #333;
+    border-radius: 5px;
+    align-items: flex-start;
+    padding: 40px 0px;
+}
+.box-container{
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.solution-item{
+    width: 90%;
+}
+.box-item{
+    height: 350px;
+}
+.corona-cases{
+    height: 2050px;
+}
+.box-case{
+    justify-content: center;
+}
+.box-item-case{
+    width: 90%;
+}
+.img-case a{
+    left: 20%;
+}
+.box-doctor{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box-item-doctor{
+    width: 100%;
+    height: 550px;
+    margin-bottom: 80px;
+}
+.content-footer{
+    width: 80%;
+    justify-content: center;
+}
+.col-container{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.col-4 {
+    width: 80%;
+}
+.col-4 img{
+    width: 100%;
+}
+}
